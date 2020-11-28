@@ -23,16 +23,20 @@ body {
   -webkit-justify-content: center;
 }
 
-body, input {
+body,
+input {
   display: -webkit-flex;
-  font-family: 'Avenir', 'helvetica neue', helvetica, arial, sans-serif;
+  font-family: "JetBrains Mono", "Avenir", "helvetica neue", helvetica, arial,
+    sans-serif;
 }
 
 .age-label {
-  color: #B0B5B9;
+  color: #b0b5b9;
   font-size: 1.2rem;
   line-height: 1;
   margin: 0 0 0 2px;
+  font-family: "JetBrains Mono", "Avenir", "helvetica neue", helvetica, arial,
+    sans-serif;
 }
 
 .count {
@@ -41,18 +45,23 @@ body, input {
   font-size: 6rem;
   line-height: 1;
   font-weight: 600;
+  font-family: "JetBrains Mono", "Avenir", "helvetica neue", helvetica, arial,
+    sans-serif;
 }
 
 .count sup {
   font-size: 2.4rem;
   margin-left: 7px;
+  font-family: "JetBrains Mono", "Avenir", "helvetica neue", helvetica, arial,
+    sans-serif;
 }
 
 label {
   display: block;
 }
 
-input, button {
+input,
+button {
   padding: 0.375rem 0.75rem;
   font-size: 1.5rem;
   appearance: none;
@@ -65,18 +74,18 @@ input {
   border-width: 1px;
   border-style: solid;
   border-radius: 0.25rem;
-  border-color: #CCC;
-  background-color: #FFF;
+  border-color: #ccc;
+  background-color: #fff;
 }
 
 button {
   outline: none;
   display: block;
   cursor: pointer;
-  color: #FFF;
+  color: #fff;
   border: none;
   border-radius: 0.25rem;
-  background-color: #0BE;
+  background-color: #000;
 }
 
 footer {
@@ -88,11 +97,10 @@ footer {
 
 @media (prefers-color-scheme: dark) {
   body {
-    background: #494949;
+    background: rgb(47, 47, 51);
   }
 
   .count {
     color: #fff;
   }
 }
-

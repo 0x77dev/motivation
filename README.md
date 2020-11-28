@@ -1,7 +1,7 @@
-Motivation
-========
+# @0x77/Motivation
 
 Your age.
 
+![](preview.gif)
 
-![](screenshot.png)
+[This is fork, original repo is here:](https://github.com/maccman/motivation)
